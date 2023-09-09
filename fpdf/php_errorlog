@@ -1,0 +1,24 @@
+[22-Nov-2022 13:50:45 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/recibos.modelo.php(195): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/recibos.controlador.php(54): ModeloRecibos::mdlMostrarREC('HQleaR5Z')
+#3 /home/customer/www/rifadiaz.net/public_html/fpdf/recibo.php(8): ControladorRecibos::ctrMostrarREC('HQleaR5Z')
+#4 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:46 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/recibos.modelo.php(195): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/recibos.controlador.php(54): ModeloRecibos::mdlMostrarREC('q7pbeurE')
+#3 /home/customer/www/rifadiaz.net/public_html/fpdf/recibo.php(8): ControladorRecibos::ctrMostrarREC('q7pbeurE')
+#4 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:33 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/recibos.modelo.php(195): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/recibos.controlador.php(54): ModeloRecibos::mdlMostrarREC('WQDH4iZO')
+#3 /home/customer/www/rifadiaz.net/public_html/fpdf/recibo.php(8): ControladorRecibos::ctrMostrarREC('WQDH4iZO')
+#4 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7

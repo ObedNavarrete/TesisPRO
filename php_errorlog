@@ -1,0 +1,493 @@
+[29-Oct-2022 12:35:43 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '251')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '251')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[29-Oct-2022 12:35:50 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '251')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '251')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[17-Nov-2022 15:04:37 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[17-Nov-2022 21:05:08 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[20-Nov-2022 21:04:15 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[22-Nov-2022 13:50:39 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '105')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '105')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Nov-2022 13:50:41 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '105')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '105')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Nov-2022 13:50:46 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(20): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'usuario', 'msequeira')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/login.php(36): ControladorUsuarios->ctrIngresoUsuario()
+#4 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(222): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#6 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#7 in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Nov-2022 13:50:49 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '163')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '163')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[07-Dec-2022 15:05:49 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[12-Dec-2022 14:44:44 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:44 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '251')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '251')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:44 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:44 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '208')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '208')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:45 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '99')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '99')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:46 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '160')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '160')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Dec-2022 14:44:46 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Dec-2022 15:50:55 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '208')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '208')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Dec-2022 15:50:59 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '208')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '208')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Dec-2022 15:51:00 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '208')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '208')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[22-Dec-2022 15:51:05 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '208')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '208')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:35 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:36 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(20): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'usuario', 'gcorea')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/login.php(36): ControladorUsuarios->ctrIngresoUsuario()
+#4 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(222): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#6 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#7 {m in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:36 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '305')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '305')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:39 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:39 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '18')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '18')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:40 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:40 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '303')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '303')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:42 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:43 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '18')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '18')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:43 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '19')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '19')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:44 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '300')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '300')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:45 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '15')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '15')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[23-Dec-2022 10:32:45 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '19')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '19')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[09-Jan-2023 16:03:33 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(20): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'usuario', 'mcordero')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/login.php(36): ControladorUsuarios->ctrIngresoUsuario()
+#4 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(222): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#6 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#7  in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:52 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:52 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '32')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '32')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:54 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:55 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:57 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:58 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:07:58 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:08:00 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '313')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '313')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:08:00 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:08:01 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '215')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '215')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:08:02 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '297')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '297')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[12-Jan-2023 10:08:03 America/Managua] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php:7
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php(7): PDO->__construct('mysql:host=loca...', 'uzdcgsoudgeif', 'g@j*}e1hbd@,')
+#1 /home/customer/www/rifadiaz.net/public_html/modelos/usuarios.modelo.php(11): Conexion::conectar()
+#2 /home/customer/www/rifadiaz.net/public_html/controladores/usuarios.controlador.php(60): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'roles', 'rutas', 'id', '215')
+#3 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(5): ControladorUsuarios::ctrMostrarUsuarios('id', '215')
+#4 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#5 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#6 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/conexion.php on line 7
+[14-Jan-2023 11:02:56 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[19-Jan-2023 11:03:08 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
+[05-Feb-2023 11:06:07 America/Managua] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php:100
+Stack trace:
+#0 /home/customer/www/rifadiaz.net/public_html/controladores/ganadores.controlador.php(42): ModeloGanadores::mdlRegistroGanadores('ganadores', Array)
+#1 /home/customer/www/rifadiaz.net/public_html/vistas/paginas/ganadores.php(244): ControladorGanadores->ctrRegistroGanadores()
+#2 /home/customer/www/rifadiaz.net/public_html/vistas/plantilla.php(136): include('/home/customer/...')
+#3 /home/customer/www/rifadiaz.net/public_html/controladores/plantilla.controlador.php(6): include('/home/customer/...')
+#4 /home/customer/www/rifadiaz.net/public_html/index.php(54): ControladorPlantilla->ctrPlantilla()
+#5 {main}
+  thrown in /home/customer/www/rifadiaz.net/public_html/modelos/ganadores.modelo.php on line 100
